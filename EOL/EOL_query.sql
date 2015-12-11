@@ -10,8 +10,8 @@ select pm.member_id
 , service_thru_date
 , coalesce(submitted_total_billed_amount,0) as submitted_total_billed_amount
 into #persons
-from plan_member pm
-join plan_claim_header pch
+from [QDWSQLqa02].[CHPW_WAREHOUSE_UAT].[dbo].[plan_member] pm
+join [QDWSQLqa02].[CHPW_WAREHOUSE_UAT].[dbo].plan_claim_header pch
 on pch.member_id=pm.member_id
 and pch.delete_ind='N'
 and pch.final_claim_ind='Y'
