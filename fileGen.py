@@ -1,8 +1,32 @@
 import sys
+import os.path
 
 implementations = ["AHP", "ACP", "Silverton" ]
-content = "This is the first line of code\nThis is my second line of code with %s the first item in my list\nAnd this is my last line of code"
+content = """
+Status: Internal-Only
+Author: 
+CreateDate: 
+ModifyDate: 
 
-for item in items:
-    with open("%s_hello_world.txt" % item, "w") as f:
-        f.write(content % item)
+#%(cli)s
+
+##Data Sources
+###Claims Sources
+
+#####%(cli)s
+"""
+
+
+
+
+for client in implementations :
+	folder="~Implementations\%s" % client
+	file="~Implementations\%s\%s.md" % (client,client)
+	dir = os.path.dirname(__file__)
+	print(os.path.join(dir,folder))
+	if not os.path.exists(os.path.join(dir,folder)):
+		os.makedirs(os.path.join(dir,folder))
+	with open(os.path.join(dir,file), "w") as f:
+		f.write(content % {'cli':client})	
+
+
