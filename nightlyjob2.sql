@@ -37,6 +37,7 @@ WHERE sja.start_execution_date IS NOT NULL
    and name like '%nightly%'
    AND NAME NOT LIKE '%upgrade%'
    and name not like '%hotfix%'
+   and name not like '%arcas%'
 
    ) a
 
