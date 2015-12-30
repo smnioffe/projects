@@ -2,14 +2,17 @@ import csv
 import sys
 import os.path
 
-implementations = ["AHP", "ACP", "Silverton" ]
-content = """
+import csv
+
+import pandas as pd
+
+contentHead = """
 Status: Internal-Only
 Author: Author;
 CreateDate: 2015-12-16
 ModifyDate: 2015-12-16
 
-#Client Full Name (%(cli)s)
+# %(cliN)s
 
 ## Sections:
 * [Client Details](#client-details)
@@ -21,7 +24,7 @@ ModifyDate: 2015-12-16
 
 ##Client Details
 ####Client Name
-Client Full Name
+%(cliN)s
 
 ####Client Density Area
 Client Density Area
@@ -37,26 +40,35 @@ Client Contacts
 
 
 ###Description
-Description of Client Full Name
+Description of %(cliN)s
 ###Location
-Location of Client Full Name
+Location of %(cliN)s
 ###Other Details
 Other  details
 ###Front-end URLs
-* [PROD Front-End](https://%(cli)s.arcadiaanalytics.com/)
-
-* [UAT Front-End](https://%(cli)stest.arcadiaanalytics.com/)
-
-* [QA Front-End](https://%(cli)snwebtst01.arcadiahosted.local/)  
+* [QA Front-End](https://%(cli)swebtst01.arcadiahosted.local/) 
+* [UAT Front-End](https://%(cli)stest.arcadiaanalytics.com/) 
+* [PROD Front-End](https://%(cliAlt)s.arcadiaanalytics.com/)
 
 
 ###Contacts  
 
 ##Inbound Data Sources
 ###Claims
-* PSource1
+"""
+
+
+contentClinicalSourcesHeader = """
 ###Clinical
-* CSource1
+"""
+
+contentClinicalSources = """
+* [%(srcN)s - %(src)s](../~Sources/%(src)s.md) 
+"""
+
+contentEnd = """
+
+
 ###Other
 If applicable
 
@@ -82,56 +94,46 @@ Out of scope
 
 ##External Links
 ###Jira Issues
-* [JIRA Open Issues](https://jira.arcadiasolutions.com/issues/?jql=labels%20%3D%20%(cli)s)
-* [Repo on Github](https://github.com/arcadia/qdw-%(cli)s) 
+* [JIRA Open Issues](https://jira.arcadiasolutions.com/issues/?jql=labels%%20%%3D%%20%(cli)s)
+* [Repo on Github](https://github.com/arcadia/qdw-%(cliAlt)s) 
 * [BOX - SoW](https://arcadia.app.box.com/files/0/f/1570839907/%(cli)s)
 * Link [Deployment History]
 
 ##Attachments
 * Put Releveant Attachments Here
+
 """
 
-import json
-
-import csv
 
 
 
 
-
-tree = {}
-
-reader = csv.reader(open('implementation_sources.csv', 'rb'))
-reader.next() 
-for row in reader:
-    subtree = tree
-    for i, cell in enumerate(row):
-        if cell:
-            if cell not in subtree:
-                subtree[cell] = {} if i<len(row)-1 else 1
-            subtree = subtree[cell]
-
-print tree#json.dumps(tree, indent=4)
-
-# with open('implementation_sources.csv') as f:
-    # f=[x.strip() for x in f if x.strip()]
-    # data=[tuple(x.split()) for x in f[2:]]
-    # charges=[x[0] for x in data]
-    # times=[x[0] for x in data]
-    # print('times',times)
-    # print('charges',charges)
-	
+df = pd.read_csv('implementation_sources.csv',delimiter=',', encoding="utf-8-sig")	
 
 	
 	
-for client in tree :
+for client in pd.unique(df.client_acronym.ravel()):	
 	folder="~Implementations\%s" % (client) 
 	file="~Implementations\%s\%s.md" % (client,client)
 	dir = os.path.dirname(__file__)
 	print(os.path.join(dir,folder))
+	clientName= df[df['client_acronym']== client].client_name.iloc[0]
+	clientNameAlt= df[df['client_acronym']== client].client_alt_name.iloc[0]
 	if not os.path.exists(os.path.join(dir,folder)):
 		os.makedirs(os.path.join(dir,folder))
 	with open(os.path.join(dir,file), "w") as f:
-		f.write(content % {'cli':client})	
+		f.write(contentHead % {'cli':client,'cliN':clientName,'cliAlt':clientNameAlt})
+	for sourceC in df[(df['client_acronym']== client)&(df['source_type']== 'Claim')].source_acronym:
+		sourceName= df[(df['client_acronym']== client)&(df['source_acronym']== sourceC)].source_name.iloc[0]
+		with open(os.path.join(dir,file), "a") as f:
+			f.write(contentClinicalSources% {'src':sourceC,'srcN':sourceName})
+	with open(os.path.join(dir,file), "a") as f:
+		f.write(contentClinicalSourcesHeader)	
+	for sourceC in df[(df['client_acronym']== client)&(df['source_type']== 'Clinical')].source_acronym:
+		sourceName= df[(df['client_acronym']== client)&(df['source_acronym']== sourceC)].source_name.iloc[0]
+		with open(os.path.join(dir,file), "a") as f:
+			f.write(contentClinicalSources% {'src':sourceC,'srcN':sourceName})
+	with open(os.path.join(dir,file), "a") as f:
+		f.write(contentEnd % {'cli':client,'cliAlt':clientNameAlt})
 
 

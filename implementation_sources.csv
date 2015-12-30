@@ -1,200 +1,353 @@
-client,source
-ACP,ACPCLN
-AHP,ALAGA
-AHP,ALX
-AHP,CANADA
-AHP,DEP
-AHP,EST
-AHP,FFT
-AHP,GDP
-AHP,HBH
-AHP,INDIMB
-AHP,JONES
-AHP,KEU
-AHP,LETFM
-AHP,LEWIS
-AHP,LGY
-AHP,LWD
-AHP,MVP
-AHP,NAP
-AHP,PWP
-AHP,SMITH
-AHP,SUN
-AHP,TCP
-AHP,UNIV
-AHP,URMC
-AHP,VIC
-AHP,VVF
-AHP,XCLSC
-AXBRO,ABHMOI
-BIDCO,AAM
-BIDCO,ABH
-BIDCO,AGM
-BIDCO,AOB
-BIDCO,APGS
-BIDCO,ASH
-BIDCO,ASU
-BIDCO,BAK
-BIDCO,BAR
-BIDCO,BASS
-BIDCO,BCA
-BIDCO,BIB
-BIDCO,BMFM
-BIDCO,CAK
-BIDCO,DCHC
-BIDCO,DEWD
-BIDCO,DHI
-BIDCO,DHS
-BIDCO,DIA
-BIDCO,DYE
-BIDCO,EKO
-BIDCO,EMA
-BIDCO,FCA
-BIDCO,FUG
-BIDCO,GAR
-BIDCO,GCL
-BIDCO,GEN
-BIDCO,GIT
-BIDCO,GOG
-BIDCO,GRK
-BIDCO,GRO
-BIDCO,HAR
-BIDCO,HEBREW
-BIDCO,IAR
-BIDCO,JES
-BIDCO,JOM
-BIDCO,JOR
-BIDCO,JORHOS
-BIDCO,JSCHC
-BIDCO,KAN
-BIDCO,KBE
-BIDCO,KEN
-BIDCO,KID
-BIDCO,KIM
-BIDCO,KOG
-BIDCO,LAN
-BIDCO,LIC
-BIDCO,LOO
-BIDCO,MEL
-BIDCO,MHB
-BIDCO,MIB
-BIDCO,MIL
-BIDCO,MOW
-BIDCO,MPO
-BIDCO,MVM
-BIDCO,MWM
-BIDCO,MZO
-BIDCO,NEC
-BIDCO,NIC
-BIDCO,OUTC
-BIDCO,RMA
-BIDCO,RMC
-BIDCO,RNP
-BIDCO,SCA
-BIDCO,SCHC
-BIDCO,SHP
-BIDCO,SOF
-BIDCO,SON
-BIDCO,SSIM
-BIDCO,STC
-BIDCO,STE
-BIDCO,STU
-BIDCO,STW
-BIDCO,TON
-BIDCO,UPA
-BIDCO,UPP
-BIDCO,WIG
-BIDCO,YAD
-CCCN,CBHA
-CCCN,CCW
-CCCN,CHPW
-CCCN,CVCH
-CCCN,CVCHA
-CCCN,ICHS
-CCCN,YVFWC
-CHPW,CARE
-CHPW,CBHA
-CHPW,CHPWC
-CHPW,DOC
-CHPW,FAM
-CHPW,HPHC
-CHPW,INFAITH
-CHPW,MOSES
-CHPW,NEWHP
-CHPW,PCHS
-CHPW,QDWTWOMIG
-CHPW,TACMA
-CHPW,TRICIT
-CHPW,VALVW
-CHPW,YNHS
-EBNHC,EBCLARITY
-EBNHC,EBPROCLARITY
-FDLS,CBWANG
-FDLS,EZCHO
-FDLS,HUDRIV
-FDLS,REFUAH
-FDLS,WILRY
-FHN,FHCN
-FHN,FHCNRES
-LHCQF,FMOLOL
-LHCQF,GR-LAED
-LHCQF,GR-LAELIG
-LHCQF,LAMOELG
-LHCQF,OF-LAAETNA
-LHCQF,OF-LADHH
-LHCQF,OF-LAMPI
-SLVTN,HOPEFM
-SLVTN,HOSP
-SLVTN,NWESTFM
-SLVTN,SHA
-SLVTN,WVP
-SLVTN,YVFWC
-TSTCLI1,TESTCON
-TSTCLI1,TESTCONCDC
-UCF,ORLNDOFP
-UCF,UCFCMED
-VCA,AETNA
-VCA,VAETNCLN
-VCA,WCHNASTW
-XCLS,ABBA
-XCLS,ALX
-XCLS,BAYOU
-XCLS,CANADA
-XCLS,CHT
-XCLS,CNYFAMC
-XCLS,DEP
-XCLS,EFP
-XCLS,EST
-XCLS,FCR
-XCLS,FFT
-XCLS,FMC
-XCLS,GDP
-XCLS,HBH
-XCLS,JONES
-XCLS,KERP
-XCLS,KEU
-XCLS,LAKECON
-XCLS,LETFM
-XCLS,LEWIS
-XCLS,LGY
-XCLS,LOURDES
-XCLS,LWD
-XCLS,MFM
-XCLS,NAP
-XCLS,NORALLE
-XCLS,NOYES
-XCLS,OF-IPPSUP
-XCLS,OF-XCLSC
-XCLS,PWP
-XCLS,QURESHI
-XCLS,SMITH
-XCLS,SUN
-XCLS,TCP
-XCLS,TNK
-XCLS,UHS
-XCLS,UNIV
-XCLS,URMC
-XCLS,VIC
-XCLS,VVF
-XCLS,XCLSC
-XCLS,YAV
+﻿client_acronym,client_name,client_alt_name,source_acronym,source_name,source_type
+ACP,Arizona Community Physicians,ACP,ACPBCBS,Arizona Community Physicians - Blue Cross Blue Shield Shared Risk,Clinical
+ACP,Arizona Community Physicians,ACP,ACPCCLF,Arizona Community Physicians Centers for Medicare and Medicaid Services Medicare Shared Savings Prog,Clinical
+ACP,Arizona Community Physicians,ACP,ACPCIG,Arizona Community Physicians - Cigna,Clinical
+ACP,Arizona Community Physicians,ACP,ACPCLN,Arizona Community Physicians Clinical Data,Clinical
+ACP,Arizona Community Physicians,ACP,ACPCMA,Arizona Community Physicians - Cigna Medicare,Clinical
+ACP,Arizona Community Physicians,ACP,ACPDISCH,Arizona Community Physicians - Discharge Report,Clinical
+ACP,Arizona Community Physicians,ACP,ACPHSR,Arizona Community Physicians - Humana Shared Risk,Clinical
+ACP,Arizona Community Physicians,ACP,ACPIDX,Arizona Community Physicians IDX,Clinical
+ACP,Arizona Community Physicians,ACP,ACPUHP,Arizona Community Physicians - United Health Plan ? Shared Risk,Claim
+AHP,Accountable Health Partners,AHP,ABBA,Abbasey Medical PLLC,Clinical
+AHP,Accountable Health Partners,AHP,AHMED,Dr. Ahmed,Clinical
+AHP,Accountable Health Partners,AHP,AKOWUAH,Dr. Akowuah,Clinical
+AHP,Accountable Health Partners,AHP,ALAGA,Dr. Alagappan,Clinical
+AHP,Accountable Health Partners,AHP,ALFRED,Family Medical Health of Alfred,Clinical
+AHP,Accountable Health Partners,AHP,ALX,Alexander Medical Group,Clinical
+AHP,Accountable Health Partners,AHP,ARNOT,Arnot Ogden Medical Center,Clinical
+AHP,Accountable Health Partners,AHP,BAYOU,Bayoumi Medical PLLC,Clinical
+AHP,Accountable Health Partners,AHP,BLS,Blossom Road Internal Medicine,Clinical
+AHP,Accountable Health Partners,AHP,BREEN,Dr. Breen,Clinical
+AHP,Accountable Health Partners,AHP,BRIFM,Brighton Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,BRIPED,Brighton Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,CANADA,Canandaigua MC,Clinical
+AHP,Accountable Health Partners,AHP,CEPIC,Community EPIC (Dr. Kerner),Clinical
+AHP,Accountable Health Partners,AHP,CONNORS,Dr. Connors,Clinical
+AHP,Accountable Health Partners,AHP,DEP,Dr. Depner,Clinical
+AHP,Accountable Health Partners,AHP,EST,Eastside Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,FFT,FF Thompson,Clinical
+AHP,Accountable Health Partners,AHP,GDP,Goodman Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,HBH,His Branches Health Services,Clinical
+AHP,Accountable Health Partners,AHP,HONEVAL,Honeoye Valley Family Practice,Clinical
+AHP,Accountable Health Partners,AHP,INDIMB,Independent IMB,Clinical
+AHP,Accountable Health Partners,AHP,JAMES,James Three Seventeen Medical,Clinical
+AHP,Accountable Health Partners,AHP,JEFFERS,Jefferson Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,JONES,Jones Memorial,Clinical
+AHP,Accountable Health Partners,AHP,KERP,Kerper,Clinical
+AHP,Accountable Health Partners,AHP,KEU,Keuka Family Practice Associates,Clinical
+AHP,Accountable Health Partners,AHP,LAKECON,Lake Country Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,LETFM,Letchworth Family Practice,Clinical
+AHP,Accountable Health Partners,AHP,LEWIS,Dr. Lewis,Clinical
+AHP,Accountable Health Partners,AHP,LGY,Legacy Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,LWD,Elmwood Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,MAHHROGAR,"Mahoney, Hrohoe & Garneau",Clinical
+AHP,Accountable Health Partners,AHP,MVP,MVP Claims Data,Claim
+AHP,Accountable Health Partners,AHP,NAP,Naples Valley Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,NORALLE,Northern Allegany Medical Group,Clinical
+AHP,Accountable Health Partners,AHP,NOYES,Noyes Employed,Clinical
+AHP,Accountable Health Partners,AHP,PINNFM,Pinnacle Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,PWP,Pathway Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,QURESHI,Dr. Qureshi,Clinical
+AHP,Accountable Health Partners,AHP,SHEIKH,Dr. Sheikh,Clinical
+AHP,Accountable Health Partners,AHP,SMITH,Dr. Smith,Clinical
+AHP,Accountable Health Partners,AHP,STONBROK,Stony Brook Peds,Clinical
+AHP,Accountable Health Partners,AHP,SUN,Sunrise Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,TCP,Twelve Corners Pediatrics,Clinical
+AHP,Accountable Health Partners,AHP,TNK,Dr. Tinkelman,Clinical
+AHP,Accountable Health Partners,AHP,TRICON,Tri-county Family Medicine,Clinical
+AHP,Accountable Health Partners,AHP,UNIV,University Health Services,Clinical
+AHP,Accountable Health Partners,AHP,URMC,University Rochester Medical Center,Clinical
+AHP,Accountable Health Partners,AHP,VIC,Victor Health,Clinical
+AHP,Accountable Health Partners,AHP,VVF,Valley View Family Practice Associates,Clinical
+AHP,Accountable Health Partners,AHP,WAYLAND,Wayland Family and Sports Medicine,Clinical
+AHP,Accountable Health Partners,AHP,XCLSC,AHP/XCLS Claims Replication,Claim
+AHP,Accountable Health Partners,AHP,YAV,Dr. Yavorek,Clinical
+AHP,Accountable Health Partners,AHP,ZONECI,Zoneci Medical,Clinical
+AXBRO,Alexian Brothers,AXBRO,ABHMOI,Alexian Brothers Health Maintenance Organization of Illinois,Clinical
+AXBRO,Alexian Brothers,AXBRO,ABMSSP,Alexian Brothers Medicare Shared Savings Program,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,AAM,(Steinberg) Allergy & Asthma Center of MA ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,ABH,APG-Blue Hills (Current) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,AGM,LGH Autumn Grace (Chih Yeh) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,ALL-PayerName,BIDCO PayerName Extracts,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,AOB,LGH Andover OB/Gyn ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,APGS,APG-Sharon ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,ASH,APG-Ashur ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,ASU,LGH Andover Surgical ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BAK,Boston OB/Gyn ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BAR,Barrett ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BASS,APG-Family Medicine Center of Needham (BASSLER) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BCA,Izzy & Gomolin ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BDCCLM,BIDCO (Claims Data),Claim
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BIB,Biber ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,BMFM,Boston MFM ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,CAK,Community Physicians Associates (CPA) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DCHC,Dimock CHC,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DEWD,APG-Dedham/Westwood ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DHI,Dhillon ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DHS,Digestive Health ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DIA,Diane London MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,DYE,Dye ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,EKO,Edalji & Komer ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,EMA,LGH Essex Medical Associated ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,FCA,Family Care Associates ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,FUG,Dana Fugelso ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GAR,APG-Medfield ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GCL,Gastroenterology Consultants of Greater Lowell ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GEN,LGH Michael/Josef Gendlerman ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GIT,LGH Joan Gitlin ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GOG,LGH Michael Gogjian ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GR-BIDCO72,BIDCO72 Group as a source,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GRK,Gregory Kechejian MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,GRO,LGH Michael Grossman ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,HAR,Tracy Harris ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,HEBREW,Hebrew Senior Life,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,IAR,Greater Boston Internal Medicine/Agostino Iarrobino ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,JES,Jeff Silver MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,JOM,John Markis MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,JOR,"Jose Ruano, MD ",Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,JORHOS,Jordan Hospital,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,JSCHC,Joseph Smith CHC,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KAN,Fred Kantrowitz ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KBE,LGH Kevin Berry ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KEN,APG-Brian Kenny ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KID,LGH Lawrence Kidd ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KIM,LGH Grace Kim ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,KOG,APG-Needham Heights ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,LAN,LGH Michael Landman ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,LIC,Lichter ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,LOO,Looney ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MEL,Avrohm N. Melnick ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MHB,Men's Health Boston ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MIB,Michael  Berry Md ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MIL,"APG - Milton Group (Crown colony, ferante, vue) ",Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MOW,Mowschenson ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MPO,LGH Methuen Podiatry (Kline/Ryan) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MVM,Leo Lane - Merrimack Valley Medical ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MWM,Vascular Surgeons ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,MZO,Meeks & Zilberfarb ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,NEC,New England Cardiology ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,NIC,Nina Carroll MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,OUTC,Outer Cape CHC,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,RMA,Randolph Medical Associates ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,RMC,LGH Ruhke Medial  ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,RNP,LGH Riverside Nephrology/Eduardo Haddad ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SCA,Scarlatelli / McLaughlin ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SCHC,South Cove CHC,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SHP,Shapiro ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SOF,Solomon and Freedman ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SON,Song ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,SSIM,S. Shore Internal Med ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,STC,"Stephan Cohen, MD ",Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,STE,Cornerstone Medical Group (formerly Stern) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,STU,LGH Dr. Stupnytsi (Eagle Medicine Associates) ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,STW,Stewart ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,TON,APG-Tong ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,UPA,Urology practice Associates ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,UPP,APG-Upper Falls ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,WIG,William Goldberg MD ,Clinical
+BIDCO,Beth Israel Deaconess Care Organization,BIDCO,YAD,Pramila Yadav ,Clinical
+CCCN,Community Care Contracting Network,CCCN,CBHA,Columbia Basin Health Association,Clinical
+CCCN,Community Care Contracting Network,CCCN,CCW,Coordinate Care Claims,Claim
+CCCN,Community Care Contracting Network,CCCN,CHPW,Community Health Plan of Washington,Claim
+CCCN,Community Care Contracting Network,CCCN,CHPWCLM,CHPW-Claims,Claim
+CCCN,Community Care Contracting Network,CCCN,CVCH,Columbia Valley Community Health Center,Clinical
+CCCN,Community Care Contracting Network,CCCN,CVCHA,Columbia Valley CHC,Clinical
+CCCN,Community Care Contracting Network,CCCN,ICHS,International Community Health Services,Clinical
+CCCN,Community Care Contracting Network,CCCN,WVCH,Willamette Valley Community Health,Clinical
+CCCN,Community Care Contracting Network,CCCN,YVFWC,Yakima Valley Farm Workers Clinic,Clinical
+CHPW,Community Health Plan of Washington,CHPW,CARE,Neighborcare ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,CBHA,Columbia Basin Health Association,Clinical
+CHPW,Community Health Plan of Washington,CHPW,CHAS,Community Health Association of Spokane,Clinical
+CHPW,Community Health Plan of Washington,CHPW,CHPWC,CHPW Claims,Claim
+CHPW,Community Health Plan of Washington,CHPW,CHPWCLM,CHPW-Claims,Claim
+CHPW,Community Health Plan of Washington,CHPW,CHPWRAPS,CHPW Regulatory Affairs Professionals Society,Clinical
+CHPW,Community Health Plan of Washington,CHPW,DOC,Country Doctor ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,FAM,Family Care ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,HPHC,Healthpoint ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,INFAITH,Interfaith,Clinical
+CHPW,Community Health Plan of Washington,CHPW,MOSES,Moses Lake,Clinical
+CHPW,Community Health Plan of Washington,CHPW,NEWHP,NEWHP ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,OF-CHPWPCP,PCP Data Extract,Clinical
+CHPW,Community Health Plan of Washington,CHPW,PCHS,Peninsula Community Health Services,Clinical
+CHPW,Community Health Plan of Washington,CHPW,QDWTWOMIG,CHPW Migration from QDW 2.X to QDW 4.X,Clinical
+CHPW,Community Health Plan of Washington,CHPW,SEAMAR,Seattle Maryville,Clinical
+CHPW,Community Health Plan of Washington,CHPW,TACMA,Tacoma,Clinical
+CHPW,Community Health Plan of Washington,CHPW,TRICIT,Tri-Cities,Clinical
+CHPW,Community Health Plan of Washington,CHPW,VALVW,ValleyView Health Center,Clinical
+CHPW,Community Health Plan of Washington,CHPW,YNHS,Yakima Neighborhood Health Services ,Clinical
+CHPW,Community Health Plan of Washington,CHPW,YVFWC,Yakima Valley Farm Workers Clinic,Clinical
+EBNHC,East Boston Neighborhood Health Center,EBNHC,EBCLARITY,EBClarity,Clinical
+EBNHC,East Boston Neighborhood Health Center,EBNHC,EBPROCLARITY,EBProClarity,Clinical
+FDLS,Fidelis,FDLS,CBWANG,Charles B. Wang,Clinical
+FDLS,Fidelis,FDLS,EZCHO,Ezras Cholim,Clinical
+FDLS,Fidelis,FDLS,FDLSMEM,Inbound Member Eligibility,Clinical
+FDLS,Fidelis,FDLS,HUDRIV,Hudson River,Clinical
+FDLS,Fidelis,FDLS,MTKIS,Mount Kisco,Clinical
+FDLS,Fidelis,FDLS,OF-FDLSEXT,Outbound Fidelis Extract,Clinical
+FDLS,Fidelis,FDLS,REFUAH,Refuah Health Center,Clinical
+FDLS,Fidelis,FDLS,WILRY,William F. Ryan,Clinical
+FHN,Family Health Care Network,FHN,FHCN,Family Health Center,Clinical
+FHN,Family Health Care Network,FHN,FHCNRES,Family Health Center Results,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,BATMC,Baton Rouge General Medical Center,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,FMOLOL,"Franciscian Missionaries of Our Lady Health System, QDW 4.X",Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,GR-LAED,Group Louisiana Emergency Departments,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,GR-LAELIG,Group Louisiana Eligibility,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LALGMC,Lafayette General Medical Center,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LAMOELG,LHCQF Molina Medicaid Eligibility,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LAOGHS,Opelousas General Health System,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LAOMCBR,Ochsner Medical Center - Baton Rouge,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LAORIED,Louisiana Orion ED,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LAORION,La Orion,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LATGMC,Terrebonne General Medical Center,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,LATRMC,Thibodaux Regional Medical Center,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OCHSNER,Ochsner Medical Center,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LAAETNA,Louisiana Aetna,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LAAMG,Louisiana AmeriGroup,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LAAMH,Louisiana AmeriHealth,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LADHH,Louisiana DHH,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LALHC,Louisiana LHC,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LAMPI,Louisiana MPI,Clinical
+LHCQF,Louisiana Healthcare Quality Forum,LHCQF,OF-LAUNIT,Louisiana United,Clinical
+LVLC,"Lovelace Health System, Inc.",LVLC,PRACHA,Practice Health Assessment,Clinical
+MEMS,Memorial System,MEMS,PHAI,Physicians Health Association of Illinois,Clinical
+SLVTN,Silverton,Silverton,FAMEGR,Family Medical Group,Clinical
+SLVTN,Silverton,Silverton,HOPEFM,Hope Family Medicine,Clinical
+SLVTN,Silverton,Silverton,HOSP,Silverton Hospital ,Clinical
+SLVTN,Silverton,Silverton,HOSPTEMP,Silverton Hospital TEMPORARY EXTRACT - DBID INCORRECT,Clinical
+SLVTN,Silverton,Silverton,NFMHFM,Northwest Family Medicine and Hope Family Medicine,Clinical
+SLVTN,Silverton,Silverton,NWESTFM,Northwest Family Medicine,Clinical
+SLVTN,Silverton,Silverton,SHA,Silverton Hospital Associates ,Clinical
+SLVTN,Silverton,Silverton,WVP,Willamette Valley Claims,Claim
+SLVTN,Silverton,Silverton,YVFWC,Yakima Valley Farm Workers Clinic,Clinical
+STW,Steward,STW,ASSIN,"Associates in Nephrology, PC",Clinical
+STW,Steward,STW,BRIGTI,Brigida Tironese-Call,Clinical
+STW,Steward,STW,CHIHC,"Children's Health Care, Inc.",Clinical
+STW,Steward,STW,COHEN,Eric Cohen,Clinical
+STW,Steward,STW,CPN1,Carney Pulmonary,Clinical
+STW,Steward,STW,EMRLDPHYS,Emerald Physicians,Clinical
+STW,Steward,STW,GEOGAG,"George Gagne, MD",Clinical
+STW,Steward,STW,GR-STWMIG,Steward Hosted eCW Sources (Group),Clinical
+STW,Steward,STW,LOEWFP,Loew Family Practice,Clinical
+STW,Steward,STW,LYDZUS,"Lydia Zuser, MD, PC",Clinical
+STW,Steward,STW,MILLRP,Mill River Pediatrics,Clinical
+STW,Steward,STW,NEEDFP,"Needham Family Practice Associates, PC",Clinical
+STW,Steward,STW,NEMS,New England Medical Specialties,Clinical
+STW,Steward,STW,NEWFP,Newburyport Family Practice,Clinical
+STW,Steward,STW,NEWMA,Newburyport Medical Associates,Clinical
+STW,Steward,STW,OF-HUMEDICA,Humedica,Clinical
+STW,Steward,STW,OF-STWHDS,Steward Athena,Clinical
+STW,Steward,STW,PRIMACARE,Prima CARE,Clinical
+STW,Steward,STW,SHCN,Steward Claims,Claim
+STW,Steward,STW,TAUN,Taunton Medical,Clinical
+STW,Steward,STW,YULMAN,"Yuliya Mandel, MD, PC",Clinical
+UCF,University of Central Florida,UCF,ORLNDOFP,Orlando FP,Clinical
+UCF,University of Central Florida,UCF,PGSH,Pegasus Health,Clinical
+UCF,University of Central Florida,UCF,UCFCMED,UCF Health,Clinical
+UHG,United Health Group,UHG,LOURDES,Lourdes,Clinical
+UHG,United Health Group,UHG,PR-BAST,Bassett,Clinical
+UHG,United Health Group,UHG,STJ,St.Joseph's Hospital Health Center,Clinical
+VCA,Value Care Alliance,VCA,AETNA,Aetna Inc.,Clinical
+VCA,Value Care Alliance,VCA,OF-WCHNGPRO,Western Connecticut Health Network - GPRO,Clinical
+VCA,Value Care Alliance,VCA,VAETEACO,VCA - Aetna_eACO - Claims,Claim
+VCA,Value Care Alliance,VCA,VAETEACOCLN,VCA - Aetna_eACO - Clinical,Clinical
+VCA,Value Care Alliance,VCA,VAETJV,VCA - Aetna_JV - Claims,Claim
+VCA,Value Care Alliance,VCA,VAETJVCLN,VCA - Aetna_JV - Clinical,Clinical
+VCA,Value Care Alliance,VCA,VAETNCLN,VCA Aetna Clinical,Clinical
+VCA,Value Care Alliance,VCA,VCAEMPBEN,VCA Employee and Beneficiary,Clinical
+VCA,Value Care Alliance,VCA,VCAPODG,VCA Aetna - Griffin Pod,Clinical
+VCA,Value Care Alliance,VCA,VCAPODLM,VCA Aetna - L&M Pod,Clinical
+VCA,Value Care Alliance,VCA,VCAPODM,VCA Aetna - Middlesex Pod,Clinical
+VCA,Value Care Alliance,VCA,VCAPODS,VCA Aetna - SVMC Pod,Clinical
+VCA,Value Care Alliance,VCA,VCAPODW,VCA Aetna - WCHN Pod,Clinical
+VCA,Value Care Alliance,VCA,VCVS,VCA - eACO_Rx,Clinical
+VCA,Value Care Alliance,VCA,VLGYAETNW,VCA - Aetna_Norwalk - Claims,Claim
+VCA,Value Care Alliance,VCA,VLGYAETNWCLN,VCA - Aetna_Norwalk - Clinical,Clinical
+VCA,Value Care Alliance,VCA,VLGYANTM,VCA - Anthem_Legacy,Clinical
+VCA,Value Care Alliance,VCA,VLGYCNTCR,VCA - ConnectiCare_Legacy,Clinical
+VCA,Value Care Alliance,VCA,WCHNAACO,Western Connecticut Health Network - Anthem ACO,Clinical
+VCA,Value Care Alliance,VCA,WCHNAEG,Western Connecticut Health Network - Anthem Employee Group,Clinical
+VCA,Value Care Alliance,VCA,WCHNAFP,Western Connecticut Health Network - Associated Family Physicians,Clinical
+VCA,Value Care Alliance,VCA,WCHNAMA,Western Connecticut Health Network - Aetna Medicare Advantage,Clinical
+VCA,Value Care Alliance,VCA,WCHNAND,Western Connecticut Health Network - Dr. Anderson,Clinical
+VCA,Value Care Alliance,VCA,WCHNASTW,Western Connecticut Health Network - Allscripts Touchworks,Clinical
+VCA,Value Care Alliance,VCA,WCHNBLUM,Western Connecticut Health Network - Dr. Blum,Clinical
+VCA,Value Care Alliance,VCA,WCHNCCLF,Western Connecticut Health Network- Claims and Claims Line Feed,Claim
+VCA,Value Care Alliance,VCA,WCHNCERN,Western Connecticut Health Network- Cerner,Clinical
+VCA,Value Care Alliance,VCA,WCHNDANB,Western Connecticut Health Network - Danbury Medical Group,Clinical
+VCA,Value Care Alliance,VCA,WCHNDIAZ,Western Connecticut Health Network - Dr. Diaz,Clinical
+VCA,Value Care Alliance,VCA,WCHNEMPG,Western Connecticut Health Network - Employee Group,Clinical
+VCA,Value Care Alliance,VCA,WCHNGRN,Western Connecticut Health Network- Greenway,Clinical
+VCA,Value Care Alliance,VCA,WCHNMCK,Western Connecticut Health Network- McKesson,Clinical
+VCA,Value Care Alliance,VCA,WCHNNXT,Western Connecticut Health Network- NextGen,Clinical
+XCLS,Excellus,Excellus,ABBA,Abbasey Medical PLLC,Clinical
+XCLS,Excellus,Excellus,AHMED,Dr. Ahmed,Clinical
+XCLS,Excellus,Excellus,AKOWUAH,Dr. Akowuah,Clinical
+XCLS,Excellus,Excellus,ALAGA,Dr. Alagappan,Clinical
+XCLS,Excellus,Excellus,ALFRED,Family Medical Health of Alfred,Clinical
+XCLS,Excellus,Excellus,ALX,Alexander Medical Group,Clinical
+XCLS,Excellus,Excellus,ARNOT,Arnot Ogden Medical Center,Clinical
+XCLS,Excellus,Excellus,BAYOU,Bayoumi Medical PLLC,Clinical
+XCLS,Excellus,Excellus,BLS,Blossom Road Internal Medicine,Clinical
+XCLS,Excellus,Excellus,BREEN,Dr. Breen,Clinical
+XCLS,Excellus,Excellus,BRIFM,Brighton Family Medicine,Clinical
+XCLS,Excellus,Excellus,BRIPED,Brighton Pediatrics,Clinical
+XCLS,Excellus,Excellus,CANADA,Canandaigua MC,Clinical
+XCLS,Excellus,Excellus,CEPIC,Community EPIC (Dr. Kerner),Clinical
+XCLS,Excellus,Excellus,CHT,Chittenango Medical & Wellness,Clinical
+XCLS,Excellus,Excellus,CNYFAMC,Central New York Family,Clinical
+XCLS,Excellus,Excellus,CONNORS,Dr. Connors,Clinical
+XCLS,Excellus,Excellus,CROUSMP,Crouse Medical Practice,Clinical
+XCLS,Excellus,Excellus,DEP,Dr. Depner,Clinical
+XCLS,Excellus,Excellus,EFP,Endwell Family Physicians,Clinical
+XCLS,Excellus,Excellus,EST,Eastside Pediatrics,Clinical
+XCLS,Excellus,Excellus,FCR,Family Care Medical Group,Clinical
+XCLS,Excellus,Excellus,FFT,FF Thompson,Clinical
+XCLS,Excellus,Excellus,FMA,Family Medicine Associates of CNY,Clinical
+XCLS,Excellus,Excellus,FMC,Family Medicine of Carthage,Clinical
+XCLS,Excellus,Excellus,FPASSOC,Family Practice Associates,Clinical
+XCLS,Excellus,Excellus,GDP,Goodman Pediatrics,Clinical
+XCLS,Excellus,Excellus,HBH,His Branches Health Services,Clinical
+XCLS,Excellus,Excellus,HONEVAL,Honeoye Valley Family Practice ,Clinical
+XCLS,Excellus,Excellus,IMA,Internal Medicine Associates of Auburn,Clinical
+XCLS,Excellus,Excellus,INDIMB,Independent IMB,Clinical
+XCLS,Excellus,Excellus,JAMES,James Three Seventeen Medical,Clinical
+XCLS,Excellus,Excellus,JEFFERS,Jefferson Family Medicine,Clinical
+XCLS,Excellus,Excellus,JONES,Jones Memorial,Clinical
+XCLS,Excellus,Excellus,KERP,Kerper,Clinical
+XCLS,Excellus,Excellus,KEU,Keuka Family Practice Associates,Clinical
+XCLS,Excellus,Excellus,LAKECON,Lake Country Family Medicine,Clinical
+XCLS,Excellus,Excellus,LETFM,Letchworth Family Practice,Clinical
+XCLS,Excellus,Excellus,LEWGEN,Lewis County General Hospital,Clinical
+XCLS,Excellus,Excellus,LEWIS,Dr. Lewis,Clinical
+XCLS,Excellus,Excellus,LGY,Legacy Pediatrics,Clinical
+XCLS,Excellus,Excellus,LOURDES,Lourdes,Clinical
+XCLS,Excellus,Excellus,LWD,Elmwood Pediatrics,Clinical
+XCLS,Excellus,Excellus,MAHHROGAR,"Mahoney, Hrohoe & Garneau",Clinical
+XCLS,Excellus,Excellus,MFM,Marcellus Family Medicine,Clinical
+XCLS,Excellus,Excellus,NAP,Naples Valley Family Medicine,Clinical
+XCLS,Excellus,Excellus,NORALLE,Northern Allegany Medical Group,Clinical
+XCLS,Excellus,Excellus,NOYES,Noyes Employed,Clinical
+XCLS,Excellus,Excellus,OF-IPPSUP,HEDIS Outbound Feed,Clinical
+XCLS,Excellus,Excellus,OF-XCLSC,Excellus Claims Outbound Feed,Claim
+XCLS,Excellus,Excellus,PINNFM,Pinnacle Family Medicine,Clinical
+XCLS,Excellus,Excellus,PR-BAST,Bassett,Clinical
+XCLS,Excellus,Excellus,PREVMA,Preventive Medicine Associates,Clinical
+XCLS,Excellus,Excellus,PWP,Pathway Pediatrics ,Clinical
+XCLS,Excellus,Excellus,QURESHI,Dr. Qureshi,Clinical
+XCLS,Excellus,Excellus,SHEIKH,Dr. Sheikh,Clinical
+XCLS,Excellus,Excellus,SMITH,Dr. Smith,Clinical
+XCLS,Excellus,Excellus,STJ,St.Joseph's Hospital Health Center,Clinical
+XCLS,Excellus,Excellus,STONBROK,Stony Brook PedS,Clinical
+XCLS,Excellus,Excellus,SUN,Sunrise Pediatrics,Clinical
+XCLS,Excellus,Excellus,TCP,Twelve Corners Pediatrics,Clinical
+XCLS,Excellus,Excellus,TNK,Dr. Tinkelman,Clinical
+XCLS,Excellus,Excellus,TRICON,Tri-county Family Medicine,Clinical
+XCLS,Excellus,Excellus,UHS,United Health Services,Clinical
+XCLS,Excellus,Excellus,UNIV,University Health Services,Clinical
+XCLS,Excellus,Excellus,URMC,University Rochester Medical Center,Clinical
+XCLS,Excellus,Excellus,VIC,Victor Health,Clinical
+XCLS,Excellus,Excellus,VVF,Valley View Family Practice Associates,Clinical
+XCLS,Excellus,Excellus,WAYLAND,Wayland Family and Sports Medicine,Clinical
+XCLS,Excellus,Excellus,XCLSC,Excellus Claims,Claim
+XCLS,Excellus,Excellus,YAV,Dr. Yavorek,Clinical
+XCLS,Excellus,Excellus,ZONECI,Zoneci Medical,Clinical
