@@ -63,16 +63,16 @@ contentClinicalSourcesHeader = """
 """
 
 contentClinicalSources = """
-* [%(srcN)s - %(src)s](../~Sources/%(src)s.md) 
+* [%(srcN)s - %(src)s](../~Sources/%(src)s/index.html) 
 """
 
 contentEnd = """
 
 
-###Other
-If applicable
-
 ##Outbound Data Sources
+###Report Name
+* Details
+
 ###Report Name 
 * Details
 
@@ -113,8 +113,10 @@ df = pd.read_csv('implementation_sources.csv',delimiter=',', encoding="utf-8-sig
 	
 	
 for client in pd.unique(df.client_acronym.ravel()):	
+	#folder="~Implementations\%s" % (client) 
 	folder="~Implementations\%s" % (client) 
-	file="~Implementations\%s\%s.md" % (client,client)
+	#file="~Implementations\%s\%s.md" % (client,client)
+	file="~Implementations\%s.md" % (client)
 	dir = os.path.dirname(__file__)
 	print(os.path.join(dir,folder))
 	clientName= df[df['client_acronym']== client].client_name.iloc[0]
