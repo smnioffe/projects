@@ -63,7 +63,7 @@ contentClinicalSourcesHeader = """
 """
 
 contentClinicalSources = """
-* [%(srcN)s - %(src)s](../~Sources/%(src)s/index.html) 
+* [%(srcN)s - %(src)s](../~Implementations/~Sources/%(src)s/index.html) 
 """
 
 contentEnd = """
