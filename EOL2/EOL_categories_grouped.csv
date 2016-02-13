@@ -1,0 +1,130 @@
+﻿avg_cost,n,minor,major,color_code
+632.473037,191,Abdominal paracentesis,Procedure,#7bc143
+1652.411086,23,Amputation of lower extremity,Procedure,#7bc143
+155.848554,86,Ancillary Services,Unspecified and ancillary services,#f99e4b
+1177.525516,886,Anesthesia,Anesthesia labs and medication supplies,#1b75bc
+186.049876,203,Arterial blood gases,Diagnostic Procedures,#c456a0
+1046.735347,130,Arterio- or venogram (not heart and head),Diagnostic Procedures,#c456a0
+173.783248,59,Arthrocentesis,Procedure,#7bc143
+639.380061,35,Biopsy of liver,Procedure,#7bc143
+897.433087,169,Blood transfusion,Evaluation and Therapeutic Procedures,#4aabc5
+413.047254,51,Bone marrow biopsy,Procedure,#7bc143
+458.699611,452,Cancer chemotherapy,Evaluation and Therapeutic Procedures,#4aabc5
+156.667439,82,Cardiac stress tests,Diagnostic Procedures,#c456a0
+1760.617435,13,Cholecystectomy and common duct exploration,Procedure,#7bc143
+1053.633161,102,Colonoscopy and biopsy,Procedure,#7bc143
+2580.686388,24,Colorectal resection,Procedure,#7bc143
+380.287804,1085,Computerized axial tomography (CT) scan head,Diagnostic Procedures,#c456a0
+854.704930,24,Contrast aortogram,Diagnostic Procedures,#c456a0
+350.774895,16,Control of epistaxis,Procedure,#7bc143
+2748.640833,16,Coronary artery bypass graft (CABG),Procedure,#7bc143
+2017.822130,44,Creation revision and removal of arteriovenous fistula or vessel-to-vessel cannula for dialysis,Procedure,#7bc143
+884.253363,1197,CT scan abdomen,Diagnostic Procedures,#c456a0
+596.508579,1023,CT scan chest,Diagnostic Procedures,#c456a0
+416.954073,109,Debridement of wound infection or burn,Procedure,#7bc143
+637.578759,211,Diagnostic bronchoscopy and biopsy of bronchus,Procedure,#7bc143
+1406.752230,133,Diagnostic cardiac catheterization coronary arteriography,Procedure,#7bc143
+182.002709,291,Diagnostic physical therapy,Diagnostic Procedures,#c456a0
+290.030043,76,Diagnostic procedures on nose mouth and pharynx,Procedure,#7bc143
+312.922750,40,Diagnostic spinal tap,Procedure,#7bc143
+197.366416,773,Diagnostic ultrasound of abdomen or retroperitoneum,Diagnostic Procedures,#c456a0
+197.238539,194,Diagnostic ultrasound of head and neck,Diagnostic Procedures,#c456a0
+253.009579,1124,Diagnostic ultrasound of heart (echocardiogram),Diagnostic Procedures,#c456a0
+87.443923,2792,Electrocardiogram,Diagnostic Procedures,#c456a0
+328.121963,185,Electroencephalogram (EEG),Diagnostic Procedures,#c456a0
+114.569012,157,Electrographic cardiac monitoring,Diagnostic Procedures,#c456a0
+771.044685,69,Endoscopic retrograde cannulation of pancreas (ERCP),Procedure,#7bc143
+583.966428,28,Endoscopy and endoscopic biopsy of the urinary tract,Procedure,#7bc143
+863.804248,19,Esophageal dilatation,Procedure,#7bc143
+193.228669,117,Excision of skin lesion,Procedure,#7bc143
+1767.541250,16,Exploratory laparotomy,Procedure,#7bc143
+1656.019047,21,Extracorporeal circulation auxiliary to open heart procedures,Procedure,#7bc143
+943.955382,61,Gastrostomy temporary and permanent,Procedure,#7bc143
+3987.769848,11,Heart valve procedures,Procedure,#7bc143
+228.338695,99,Hemodialysis,Procedure,#7bc143
+283.472222,18,Home Health Services,Unspecified and ancillary services,#f99e4b
+1411.125294,17,Ileostomy and other enterostomy,Procedure,#7bc143
+491.189227,41,Incision and drainage skin and subcutaneous tissue,Procedure,#7bc143
+4991.767500,32,Incision and excision of CNS,Procedure,#7bc143
+605.162906,205,Incision of pleura thoracentesis chest drainage,Procedure,#7bc143
+228.369523,203,Indwelling catheter,Procedure,#7bc143
+878.595952,28,Injection or ligation of esophageal varices,Procedure,#7bc143
+739.351960,34,Insertion of catheter or spinal stimulator and injection into spinal canal,Procedure,#7bc143
+1315.298181,22,Insertion replacement or removal of extracranial ventricular shunt,Procedure,#7bc143
+1278.360000,18,Insertion revision replacement removal of cardiac pacemaker or cardioverter/defibrillator,Procedure,#7bc143
+77.962498,16265,Laboratory - Chemistry and Hematology,Anesthesia labs and medication supplies,#1b75bc
+2699.148846,13,Laminectomy excision intervertebral disc,Procedure,#7bc143
+1950.143768,23,Lens and cataract procedures,Procedure,#7bc143
+747.912558,722,Magnetic resonance imaging,Diagnostic Procedures,#c456a0
+100.539486,4236,Microscopic examination (bacterial smear culture toxicology),Diagnostic Procedures,#c456a0
+271.476153,26,Nasogastric tube,Evaluation and Therapeutic Procedures,#4aabc5
+41.499713,473,Nonoperative urinary system measurements,Diagnostic Procedures,#c456a0
+117.932767,551,Ophthalmologic and otologic diagnosis and treatment,Evaluation and Therapeutic Procedures,#4aabc5
+521.773050,542,Other CT scan,Diagnostic Procedures,#c456a0
+370.584156,85,Other diagnostic cardiovascular procedures,Procedure,#7bc143
+818.089716,53,Other diagnostic nervous system procedures,Procedure,#7bc143
+364.278483,20915,Other diagnostic procedures (interview evaluation consultation),Evaluation and Therapeutic Procedures,#4aabc5
+227.422112,232,Other diagnostic procedures on lung and bronchus,Procedure,#7bc143
+643.678257,22,Other diagnostic procedures on musculoskeletal system,Procedure,#7bc143
+220.433655,62,Other diagnostic procedures on skin and subcutaneous tissue,Procedure,#7bc143
+108.711013,2614,Other diagnostic radiology and related techniques,Evaluation and Therapeutic Procedures,#4aabc5
+205.788476,1194,Other diagnostic ultrasound,Diagnostic Procedures,#c456a0
+979.704583,32,Other fracture and dislocation procedure,Procedure,#7bc143
+617.385740,18,Other gastrointestinal diagnostic procedures,Procedure,#7bc143
+1165.250000,10,Other hernia repair,Procedure,#7bc143
+520.227314,18,Other intraocular therapeutic procedures,Procedure,#7bc143
+92.651864,2748,Other Laboratory,Anesthesia labs and medication supplies,#1b75bc
+268.083240,36,Other non-OR gastrointestinal therapeutic procedures,Procedure,#7bc143
+538.192121,33,Other non-OR or closed therapeutic nervous system procedures,Procedure,#7bc143
+359.673586,384,Other non-OR therapeutic cardiovascular procedures,Procedure,#7bc143
+300.945980,17,Other non-OR therapeutic procedures of urinary tract,Procedure,#7bc143
+60.546767,33,Other non-OR therapeutic procedures on musculoskeletal system,Procedure,#7bc143
+202.355980,17,Other non-OR therapeutic procedures on respiratory system,Procedure,#7bc143
+88.483052,178,Other non-OR therapeutic procedures on skin and breast,Procedure,#7bc143
+1526.566736,48,Other OR gastrointestinal therapeutic procedures,Procedure,#7bc143
+1164.545333,30,Other OR heart procedures,Procedure,#7bc143
+2147.080714,14,Other OR lower GI therapeutic procedures,Procedure,#7bc143
+4742.869285,14,Other OR procedures on vessels of head and neck,Procedure,#7bc143
+2403.695569,82,Other OR procedures on vessels other than head and neck,Procedure,#7bc143
+1399.302465,48,Other OR therapeutic nervous system procedures,Procedure,#7bc143
+1410.469230,13,Other OR therapeutic procedures of urinary tract,Procedure,#7bc143
+1086.717777,21,Other OR therapeutic procedures on bone,Procedure,#7bc143
+1005.878974,13,Other OR therapeutic procedures on nose mouth and pharynx,Procedure,#7bc143
+1115.274133,50,Other OR therapeutic procedures on respiratory system,Procedure,#7bc143
+1894.473684,19,Other OR upper GI therapeutic procedures,Procedure,#7bc143
+127.807005,123,Other physical therapy and rehabilitation,Evaluation and Therapeutic Procedures,#4aabc5
+249.256078,17,Other radioisotope scan,Diagnostic Procedures,#c456a0
+186.590134,247,Other respiratory therapy,Evaluation and Therapeutic Procedures,#4aabc5
+102.023750,20,Other therapeutic ear procedures,Procedure,#7bc143
+189.332046,5927,Other therapeutic procedures,Evaluation and Therapeutic Procedures,#4aabc5
+1336.943440,31,Other therapeutic procedures hemic and lymphatic system,Procedure,#7bc143
+1183.406956,23,Other therapeutic procedures on eyelids conjunctiva cornea,Procedure,#7bc143
+1801.008269,26,Other therapeutic procedures on muscles and tendons,Procedure,#7bc143
+725.479114,924,Other vascular catheterization not heart,Procedure,#7bc143
+314.594862,2174,Pathology,Anesthesia labs and medication supplies,#1b75bc
+1460.210750,40,Percutaneous transluminal coronary angioplasty (PTCA),Procedure,#7bc143
+1738.508473,83,Peritoneal dialysis,Procedure,#7bc143
+93.882558,452,Physical therapy exercises manipulation and other procedures,Evaluation and Therapeutic Procedures,#4aabc5
+581.907678,28,Proctoscopy and anorectal biopsy,Procedure,#7bc143
+87.802126,565,Prophylactic vaccinations and inoculations,Evaluation and Therapeutic Procedures,#4aabc5
+181.106969,159,Psychological and psychiatric evaluation and therapy,Evaluation and Therapeutic Procedures,#4aabc5
+486.273541,64,Radioisotope bone scan,Diagnostic Procedures,#c456a0
+313.021153,39,Radioisotope pulmonary scan,Diagnostic Procedures,#c456a0
+1452.480601,180,Radioisotope scan and function studies,Diagnostic Procedures,#c456a0
+413.422426,401,Respiratory intubation and mechanical ventilation,Evaluation and Therapeutic Procedures,#4aabc5
+78.526104,2961,Routine chest X-ray,Diagnostic Procedures,#c456a0
+1602.614140,19,Skin graft,Procedure,#7bc143
+2648.227450,17,Small bowel resection,Procedure,#7bc143
+2795.674803,34,Spinal fusion,Procedure,#7bc143
+700.192679,79,Suture of skin and subcutaneous tissue,Procedure,#7bc143
+528.670000,20,Swan-Ganz catheterization for monitoring,Diagnostic Procedures,#c456a0
+1047.734852,1401,Therapeutic radiology,Diagnostic Procedures,#c456a0
+790.095930,43,Tracheoscopy and laryngoscopy with biopsy,Procedure,#7bc143
+964.110000,22,Tracheostomy temporary and permanent,Procedure,#7bc143
+234.610867,126,Traction splints and other wound care,Evaluation and Therapeutic Procedures,#4aabc5
+1464.000606,11,Transurethral excision drainage or removal urinary obstruction,Procedure,#7bc143
+2592.822450,34,Treatment fracture or dislocation of hip and femur,Procedure,#7bc143
+1886.047307,13,Treatment fracture or dislocation of lower extremity (other than hip or femur),Procedure,#7bc143
+837.777085,227,Upper gastrointestinal endoscopy biopsy,Procedure,#7bc143
+166.252697,118,Upper gastrointestinal X-ray,Diagnostic Procedures,#c456a0
+1022.950000,13,Ureteral catheterization,Procedure,#7bc143

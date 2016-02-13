@@ -1,0 +1,118 @@
+description,occurrence,avg_cost
+Abdominal paracentesis,22,1927
+Ancillary Services,3,2910
+Anesthesia,85,2323
+Antibiotics,9,6269
+Appendectomy,1,2812
+Arterial blood gases,49,14097
+Arterio- or venogram (not heart and head),18,5016
+Arthrocentesis,1,1282
+Arthroplasty knee,1,5809
+Biopsy of liver,3,958
+Blood transfusion,15,16440
+Bone marrow biopsy,1,1228
+Cancer chemotherapy,16,16491
+Cardiac stress tests,4,2403
+Cesarean section,1,3169
+Cholecystectomy and common duct exploration,2,2900
+Colorectal resection,6,4258
+Computerized axial tomography (CT) scan head,240,1955
+Contrast aortogram,4,938
+Control of epistaxis,3,10046
+Coronary artery bypass graft (CABG),4,5315
+CT scan abdomen,138,1546
+CT scan chest,107,1589
+"Debridement of wound, infection or burn",3,2393
+Diagnostic bronchoscopy and biopsy of bronchus,14,1266
+"Diagnostic cardiac catheterization, coronary arteriography",24,2012
+Diagnostic physical therapy,7,2660
+"Diagnostic procedures on nose, mouth and pharynx",4,6974
+Diagnostic spinal tap,4,777
+Diagnostic ultrasound of abdomen or retroperitoneum,102,375
+Diagnostic ultrasound of head and neck,39,430
+Diagnostic ultrasound of heart (echocardiogram),216,565
+Electrocardiogram,492,2640
+Electroencephalogram (EEG),60,885
+Electrographic cardiac monitoring,6,465
+Endoscopic retrograde cannulation of pancreas (ERCP),2,3499
+Endoscopy and endoscopic biopsy of the urinary tract,2,2047
+Excision of skin lesion,16,411
+Exploratory laparotomy,7,7562
+Extracorporeal circulation auxiliary to open heart procedures,12,3387
+"Gastrostomy, temporary and permanent",2,791
+Heart valve procedures,4,5115
+Hemodialysis,22,349
+Ileostomy and other enterostomy,3,3978
+"Incision and drainage, skin and subcutaneous tissue",2,2058
+Incision and excision of CNS,4,6426
+"Incision of pleura, thoracentesis, chest drainage",28,2020
+Indwelling catheter,43,13857
+Injection or ligation of esophageal varices,7,830
+Insertion of catheter or spinal stimulator and injection into spinal canal,1,2593
+"Insertion, replacement, or removal of extracranial ventricular shunt",4,5563
+"Insertion, revision, replacement, removal of cardiac pacemaker or cardioverter/defibrillator",3,1110
+Laboratory - Chemistry and Hematology,1144,8916
+"Laminectomy, excision intervertebral disc",1,12405
+Laparoscopy,1,1239
+"Lumpectomy, quadrantectomy of breast",1,1725
+Magnetic resonance imaging,56,462
+"Microscopic examination (bacterial smear, culture, toxicology)",262,10608
+Nasogastric tube,5,11771
+Nonoperative urinary system measurements,16,4469
+Ophthalmologic and otologic diagnosis and treatment,5,811
+Other,37,358
+Other CT scan,72,3269
+Other diagnostic cardiovascular procedures,6,672
+Other diagnostic nervous system procedures,2,110
+Other diagnostic procedures on lung and bronchus,7,6214
+Other diagnostic procedures on musculoskeletal system,2,274
+Other diagnostic radiology and related techniques,289,798
+Other diagnostic ultrasound,114,1218
+Other Laboratory,149,12631
+Other non-OR gastrointestinal therapeutic procedures,5,155
+Other non-OR or closed therapeutic nervous system procedures,2,1526
+Other non-OR therapeutic cardiovascular procedures,55,8307
+Other non-OR therapeutic procedures on respiratory system,4,14747
+Other non-OR therapeutic procedures on skin and breast,3,76
+Other OR gastrointestinal therapeutic procedures,3,1169
+Other OR heart procedures,7,4186
+Other OR procedures on vessels of head and neck,2,6055
+Other OR procedures on vessels other than head and neck,11,3770
+Other OR therapeutic procedures on bone,4,12573
+"Other OR therapeutic procedures on nose, mouth and pharynx",11,2807
+Other OR therapeutic procedures on respiratory system,9,10700
+Other OR therapeutic procedures on skin and breast,2,5030
+"Other OR therapeutic procedures, female organs",1,3594
+Other OR upper GI therapeutic procedures,1,6076
+Other physical therapy and rehabilitation,2,763
+Other respiratory therapy,16,9579
+Other therapeutic endocrine procedures,2,2295
+Other therapeutic procedures,512,9933
+"Other therapeutic procedures, hemic and lymphatic system",6,5617
+"Other vascular bypass and shunt, not heart",1,7098
+"Other vascular catheterization, not heart",219,2649
+Pathology,100,626
+Percutaneous transluminal coronary angioplasty (PTCA),11,3059
+Peripheral vascular bypass,1,4620
+Peritoneal dialysis,16,2098
+"Physical therapy exercises, manipulation, and other procedures",10,495
+Proctoscopy and anorectal biopsy,5,566
+Prophylactic vaccinations and inoculations,7,6782
+Psychological and psychiatric evaluation and therapy,4,194
+Radioisotope bone scan,2,124
+Radioisotope pulmonary scan,6,237
+Radioisotope scan and function studies,11,614
+"Repair of cystocele and rectocele, obliteration of vaginal vault",1,3594
+Respiratory intubation and mechanical ventilation,135,3550
+Routine chest X-ray,772,735
+Small bowel resection,4,4578
+Spinal fusion,7,12348
+Suture of skin and subcutaneous tissue,11,4380
+Swan-Ganz catheterization for monitoring,8,3523
+Therapeutic radiology,32,2368
+"Tracheostomy, temporary and permanent",2,1045
+"Transurethral excision, drainage, or removal urinary obstruction",1,1271
+"Treatment, fracture or dislocation of hip and femur",2,3258
+"Treatment, fracture or dislocation of lower extremity (other than hip or femur)",1,8749
+"Upper gastrointestinal endoscopy, biopsy",10,1089
+Upper gastrointestinal X-ray,10,746

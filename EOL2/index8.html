@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+text {
+  font: 10px sans-serif;
+}
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="js/colorbrewer.v1.min.js"></script>
+<script>
+	document.body.style.backgroundColor = "#333333";
+	
+	
+	var margin = {top: 40, right: 150, bottom: 60, left: 120},
+    width = 1200 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+	
+var diameter = 1000; //max size of the bubbles
+ var color = d3.scale.ordinal()
+ .range(colorbrewer.Oranges[6]);
+ //.domain([0,6]);
+
+var bubble = d3.layout.pack()
+    .sort(function comparator(a, b) {
+  return  b.n-a.n;})
+    .size([diameter, diameter])
+    .padding(1.5);
+
+var svg = d3.select("body")
+    .append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .attr("class", "bubble");
+
+d3.csv("data3.csv", function(error, data){
+
+data=data.filter(function(d){ return d["l2"] == "radiology" });
+
+    //convert numerical values from strings to numbers
+    data = data.map(function(d){ d.value = +d["avg_cost"]; return d; });
+
+    //bubbles needs very specific format, convert data to this.
+    var nodes = bubble.nodes({children:data}).filter(function(d) { return !d.children; });
+
+    //setup the chart
+    var bubbles = svg.append("g")
+        .attr("transform", "translate(0,0)")
+        .selectAll(".bubble")
+        .data(nodes)
+        .enter();
+
+    //create the bubbles
+    bubbles.append("circle")
+        .attr("r", function(d){ return d.r; })
+        .attr("cx", function(d){ return d.x; })
+        .attr("cy", function(d){ return d.y; })
+        .style("fill", function(d) { return color(d["L1"]); });
+
+    //format the text for each bubble
+    bubbles.append("text")
+        .attr("x", function(d){ return d.x; })
+        .attr("y", function(d){ return d.y -5; })
+        .attr("text-anchor", "middle")
+        .text(function(d){ //.text("test" +  "</br>" + "test")
+		// if(d.avg_cost>"10000")
+		// return d["description"]
+		// else {
+		return d["L1"];
+		// }
+		})
+        .style({
+            "fill":"black", 
+            "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+            "font-size": "10px"
+        });
+		
+		
+		    //format the text for each bubble
+    bubbles.append("text")
+        .attr("x", function(d){ return d.x; })
+        .attr("y", function(d){ return d.y + 5; })
+        .attr("text-anchor", "middle")
+        .text(function(d){ //.text("test" +  "</br>" + "test")
+		// if(d.avg_cost>"10000")
+		// return d["description"]
+		// else {
+		var k=d["avg_cost"];return "$"+Math.round(k );// / 100 k.toFixed(2);
+		// }
+		})
+        .style({
+            "fill":"black", 
+            "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+            "font-size": "10px"
+        });
+		
+		    bubbles.append("text")
+        .attr("x", function(d){ return d.x; })
+        .attr("y", function(d){ return d.y + 15; })
+        .attr("text-anchor", "middle")
+        .text(function(d){ //.text("test" +  "</br>" + "test")
+		// if(d.avg_cost>"10000")
+		// return d["description"]
+		// else {
+		return "n="+d["n"];
+		// }
+		})
+        .style({
+            "fill":"black", 
+            "font-family":"Helvetica Neue, Helvetica, Arial, san-serif",
+            "font-size": "10px"
+        });
+		
+		
+		  // var legend = svg.selectAll(".legend")
+      // .data(color.domain())
+    // .enter().append("g")
+      // .attr("class", "legend")
+      // .attr("transform", function(d, i) { return "translate(75," + i * 20 + ")"; });
+
+  // legend.append("rect")
+      // .attr("x", width - 18)
+      // .attr("width", 18)
+      // .attr("height", 18)
+	  // .style("opacity",.8)
+      // .style("fill", color);
+
+  // legend.append("text")
+      // .attr("x", width - 24)
+      // .attr("y", 9)
+      // .attr("dy", ".35em")
+      // .style("text-anchor", "end")
+	  // .style("fill","white")
+      // .text(function(d) { return d; });
+		
+		
+		
+})
+
+</script>

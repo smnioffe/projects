@@ -1,0 +1,91 @@
+﻿avg_cost,n,L1,l2
+2362.66694444444,36, female genital system,surgery
+2293.9947368421,19, spine and spinal cord,anethesia
+2078.5,6, maternity care and delivery,surgery
+1875.08544642857,112, intrathoracic,anethesia
+1801.74101123596,89, head,anethesia
+1717.40123417722,316, nervous system,surgery
+1685.89126213592,103," Inpatient neonatal intensive, and pediatric/neonatal critical, care services",other
+1572.47177710843,332, dialysis,medicine
+1534.568,10, mediastinum and diaphragm,surgery
+1427.30867256637,113, eye and ocular adnexa,surgery
+1333.97113207547,53, upper leg (except knee,anethesia
+1328.48710843374,83, lower abdomen,anethesia
+1308.47946666667,75, radiological procedures,anethesia
+1260.30939114391,542, musculoskeletal system,surgery
+1255.67857142857,14, knee and popliteal area,anethesia
+1254.3845,40," forearm, wrist and hand",anethesia
+1247.8,10, pelvis (except hip,anethesia
+1214.4693442623,61, neck,anethesia
+1202.23148780488,410, nuclear medicine,radiology
+1174.67178873941,2007, radiation oncology,radiology
+1128.82857142857,14, shoulder and axillary,anethesia
+1116.22871559633,218, upper abdomen,anethesia
+1041.73125,32, lower leg (below knee,anethesia
+1033.91824412533,1532, digestive system,surgery
+888.597314814815,1836, Critical care services,other
+862.376255668934,3528, Emergency department services,other
+797.091025641026,39, thorax,anethesia
+785.350593220339,118, hemic and lymphatic systems,surgery
+769.154054054054,37, perineum,anethesia
+615.086601101495,1271, respiratory system,surgery
+613.56170999732,3731, cardiovascular system,surgery
+589.9,10, gastroenterology,medicine
+523.275637065637,259, neurology and neuromuscular procedures,medicine
+501.447309222423,11060, diagnostic imaging,radiology
+461.744694835681,426, urinary system,surgery
+432.557443438914,442, radiologic guidance,radiology
+427.384,15," central nervous system assessments/tests (neuro-cognitive, mental status, speech testing",medicine
+394.974011627907,172, cytogenetic studies,pathology and laboratory
+389.647609699769,866, integumentary system,surgery
+368.028959731544,596, Consultations,other
+356.403181818182,22, general,surgery
+331.25,12, Transitional care management services,other
+325.352686483455,1783, surgical pathology,pathology and laboratory
+313.136300323924,4322," hydration, therapeutic, prophylactic, diagnostic injections and infusions, and chemotherapy and other highly complex drug or highly complex biologic agent administration",medicine
+312.6,10, other procedures,anethesia
+304.497697160883,634, cytopathology,pathology and laboratory
+298.366279069767,43, Newborn care services,other
+278.441025,400,Hospital observation services,other
+276.302440239044,1004, noninvasive vascular diagnostic studies,medicine
+265.009784471566,3851, cardiovascular,medicine
+247.404131795717,6070, Hospital inpatient services,other
+232.352941176471,17, home health procedures/services,medicine
+220.08287732342,1345, diagnostic ultrasound,radiology
+219.564605887939,1053, pulmonary,medicine
+219.346696832579,221, Prolonged services,other
+202.557142857143,7, Care plan oversight services,other
+192.338823529412,34," Domiciliary, rest home (boarding home  or custodial care services)",other
+185.457071823204,181, special otorhinolaryngologic services,medicine
+183.460884623869,4533,Office/other outpatient services,other
+179.926764705882,68, Home health services,other
+176.114102564103,39, bone/joint studies,radiology
+173.449655172414,29, auditory system,surgery
+166.857857142857,42, drug testing,pathology and laboratory
+166.678543799772,879, Nursing facility services,other
+154.552470588235,85, moderate (conscious sedation),anethesia
+146.405882352941,68, qualifying circumstances for anesthesia,anethesia
+145.323333333333,30, medical nutrition therapy,medicine
+144.869556765163,1286, physical medicine and rehabilitation,medicine
+139.946,10, other services and procedures,medicine
+137.071318681319,91, Preventive medicine services,other
+127.386846153846,130, psychiatry,medicine
+115.983667377399,469, ophthalmology,medicine
+105.593032069971,1029, transfusion medicine,pathology and laboratory
+101.242735513111,3089, microbiology,pathology and laboratory
+100.643548387097,62, breast mammography,radiology
+97.0431818181818,22, endocrine system,surgery
+95.3212396694215,363," vaccines, toxoids",medicine
+94.2735652173912,2875, organ or disease-oriented panels,pathology and laboratory
+93.8484432954928,8897, chemistry,pathology and laboratory
+91.6898983050847,885, immunology,pathology and laboratory
+87.5,6, acupuncture,medicine
+83.1886956521739,253, therapeutic drug assays,pathology and laboratory
+66.2623958333333,96, other procedures,pathology and laboratory
+63.8833333333333,6, osteopathic manipulative treatment,medicine
+61.2485869565217,276," special services, procedures and reports",medicine
+59.5978221930974,4578, hematology and coagulation,pathology and laboratory
+41.2391024555461,1181, urinalysis,pathology and laboratory
+38.7226829268293,41, chiropractic manipulative treatment,medicine
+35.5724342105263,152, immunization administration for vaccines/toxoids,medicine
+19.2857142857143,7, health and behavior assessment/intervention,medicine

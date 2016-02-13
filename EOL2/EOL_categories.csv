@@ -1,0 +1,130 @@
+﻿avg_cost,n,minor,major,color_code
+884.253363,1197,CT scan abdomen,Diagnostic Procedures,#c456a0
+197.238539,194,Diagnostic ultrasound of head and neck,Diagnostic Procedures,#c456a0
+328.121963,185,Electroencephalogram (EEG),Diagnostic Procedures,#c456a0
+283.472222,18,Home Health Services,Unspecified and ancillary services,#f99e4b
+1411.125294,17,Ileostomy and other enterostomy,Digestive System,#e44145
+60.546767,33,Other non-OR therapeutic procedures on musculoskeletal system,Musculoskeletal System,#fece34
+1164.545333,30,Other OR heart procedures,Cardiovascular System,#c3cacb
+2147.080714,14,Other OR lower GI therapeutic procedures,Digestive System,#e44145
+249.256078,17,Other radioisotope scan,Diagnostic Procedures,#c456a0
+102.023750,20,Other therapeutic ear procedures,Ear,#5c9330
+1717.811944,84,Peritoneal dialysis,Digestive System,#e44145
+93.675312,453,Physical therapy exercises manipulation and other procedures,Evaluation and Therapeutic Procedures,#4aabc5
+181.106969,159,Psychological and psychiatric evaluation and therapy,Evaluation and Therapeutic Procedures,#4aabc5
+313.021153,39,Radioisotope pulmonary scan,Diagnostic Procedures,#c456a0
+2648.227450,17,Small bowel resection,Digestive System,#e44145
+1047.734852,1401,Therapeutic radiology,Diagnostic Procedures,#c456a0
+837.777085,227,Upper gastrointestinal endoscopy biopsy,Digestive System,#e44145
+167.673660,117,Upper gastrointestinal X-ray,Diagnostic Procedures,#c456a0
+155.848554,86,Ancillary Services,Unspecified and ancillary services,#f99e4b
+1046.735347,130,Arterio- or venogram (not heart and head),Diagnostic Procedures,#c456a0
+1760.617435,13,Cholecystectomy and common duct exploration,Digestive System,#e44145
+637.578759,211,Diagnostic bronchoscopy and biopsy of bronchus,Respiratory System,#14588d
+114.569012,157,Electrographic cardiac monitoring,Diagnostic Procedures,#c456a0
+1656.019047,21,Extracorporeal circulation auxiliary to open heart procedures,Cardiovascular System,#c3cacb
+739.351960,34,Insertion of catheter or spinal stimulator and injection into spinal canal,Nervous System,#31849a
+747.912558,722,Magnetic resonance imaging,Diagnostic Procedures,#c456a0
+41.499713,473,Nonoperative urinary system measurements,Diagnostic Procedures,#c456a0
+227.422112,232,Other diagnostic procedures on lung and bronchus,Respiratory System,#14588d
+1526.566736,48,Other OR gastrointestinal therapeutic procedures,Digestive System,#e44145
+1399.302465,48,Other OR therapeutic nervous system procedures,Nervous System,#31849a
+1005.878974,13,Other OR therapeutic procedures on nose mouth and pharynx,Nose Mouth and Pharynx,#e4ae01
+1115.274133,50,Other OR therapeutic procedures on respiratory system,Respiratory System,#14588d
+186.590134,247,Other respiratory therapy,Evaluation and Therapeutic Procedures,#4aabc5
+314.594862,2174,Pathology,Anesthesia labs and medication supplies,#1b75bc
+581.907678,28,Proctoscopy and anorectal biopsy,Digestive System,#e44145
+486.273541,64,Radioisotope bone scan,Diagnostic Procedures,#c456a0
+2795.674803,34,Spinal fusion,Musculoskeletal System,#fece34
+790.095930,43,Tracheoscopy and laryngoscopy with biopsy,Respiratory System,#14588d
+2592.822450,34,Treatment fracture or dislocation of hip and femur,Musculoskeletal System,#fece34
+1886.047307,13,Treatment fracture or dislocation of lower extremity (other than hip or femur),Musculoskeletal System,#fece34
+632.473037,191,Abdominal paracentesis,Digestive System,#e44145
+897.433087,169,Blood transfusion,Evaluation and Therapeutic Procedures,#4aabc5
+460.738276,450,Cancer chemotherapy,Evaluation and Therapeutic Procedures,#4aabc5
+2580.686388,24,Colorectal resection,Digestive System,#e44145
+2748.640833,16,Coronary artery bypass graft (CABG),Cardiovascular System,#c3cacb
+180.760369,293,Diagnostic physical therapy,Diagnostic Procedures,#c456a0
+312.922750,40,Diagnostic spinal tap,Nervous System,#31849a
+253.009579,1124,Diagnostic ultrasound of heart (echocardiogram),Diagnostic Procedures,#c456a0
+4991.767500,32,Incision and excision of CNS,Nervous System,#31849a
+1315.298181,22,Insertion replacement or removal of extracranial ventricular shunt,Nervous System,#31849a
+117.719121,552,Ophthalmologic and otologic diagnosis and treatment,Evaluation and Therapeutic Procedures,#4aabc5
+370.584156,85,Other diagnostic cardiovascular procedures,Cardiovascular System,#c3cacb
+818.089716,53,Other diagnostic nervous system procedures,Nervous System,#31849a
+643.678257,22,Other diagnostic procedures on musculoskeletal system,Musculoskeletal System,#fece34
+220.433655,62,Other diagnostic procedures on skin and subcutaneous tissue,Integumentary System,#7bc143
+1086.717777,21,Other OR therapeutic procedures on bone,Musculoskeletal System,#fece34
+413.422426,401,Respiratory intubation and mechanical ventilation,Evaluation and Therapeutic Procedures,#4aabc5
+700.192679,79,Suture of skin and subcutaneous tissue,Integumentary System,#7bc143
+964.110000,22,Tracheostomy temporary and permanent,Respiratory System,#14588d
+1464.000606,11,Transurethral excision drainage or removal urinary obstruction,Urinary System,#eb7408
+413.047254,51,Bone marrow biopsy,Hemic and Lymphatic System,#b7dde8
+854.704930,24,Contrast aortogram,Diagnostic Procedures,#c456a0
+2017.822130,44,Creation revision and removal of arteriovenous fistula or vessel-to-vessel cannula for dialysis,Cardiovascular System,#c3cacb
+596.508579,1023,CT scan chest,Diagnostic Procedures,#c456a0
+193.228669,117,Excision of skin lesion,Integumentary System,#7bc143
+1767.541250,16,Exploratory laparotomy,Digestive System,#e44145
+3987.769848,11,Heart valve procedures,Cardiovascular System,#c3cacb
+1950.143768,23,Lens and cataract procedures,Eye,#9d377b
+271.476153,26,Nasogastric tube,Evaluation and Therapeutic Procedures,#4aabc5
+521.773050,542,Other CT scan,Diagnostic Procedures,#c456a0
+108.711013,2614,Other diagnostic radiology and related techniques,Evaluation and Therapeutic Procedures,#4aabc5
+92.618160,2749,Other Laboratory,Anesthesia labs and medication supplies,#1b75bc
+202.355980,17,Other non-OR therapeutic procedures on respiratory system,Respiratory System,#14588d
+2403.695569,82,Other OR procedures on vessels other than head and neck,Cardiovascular System,#c3cacb
+189.395955,5925,Other therapeutic procedures,Evaluation and Therapeutic Procedures,#4aabc5
+87.646999,566,Prophylactic vaccinations and inoculations,Evaluation and Therapeutic Procedures,#4aabc5
+1452.480601,180,Radioisotope scan and function studies,Diagnostic Procedures,#c456a0
+78.526104,2961,Routine chest X-ray,Diagnostic Procedures,#c456a0
+234.610867,126,Traction splints and other wound care,Evaluation and Therapeutic Procedures,#4aabc5
+1022.950000,13,Ureteral catheterization,Urinary System,#eb7408
+1177.525516,886,Anesthesia,Anesthesia labs and medication supplies,#1b75bc
+186.049876,203,Arterial blood gases,Diagnostic Procedures,#c456a0
+173.783248,59,Arthrocentesis,Musculoskeletal System,#fece34
+639.380061,35,Biopsy of liver,Digestive System,#e44145
+1053.633161,102,Colonoscopy and biopsy,Digestive System,#e44145
+350.774895,16,Control of epistaxis,Nose Mouth and Pharynx,#e4ae01
+416.954073,109,Debridement of wound infection or burn,Integumentary System,#7bc143
+197.366416,773,Diagnostic ultrasound of abdomen or retroperitoneum,Diagnostic Procedures,#c456a0
+583.966428,28,Endoscopy and endoscopic biopsy of the urinary tract,Urinary System,#eb7408
+863.804248,19,Esophageal dilatation,Digestive System,#e44145
+228.338695,99,Hemodialysis,Cardiovascular System,#c3cacb
+605.162906,205,Incision of pleura thoracentesis chest drainage,Respiratory System,#14588d
+878.595952,28,Injection or ligation of esophageal varices,Digestive System,#e44145
+1278.360000,18,Insertion revision replacement removal of cardiac pacemaker or cardioverter/defibrillator,Cardiovascular System,#c3cacb
+77.938539,16270,Laboratory - Chemistry and Hematology,Anesthesia labs and medication supplies,#1b75bc
+205.788476,1194,Other diagnostic ultrasound,Diagnostic Procedures,#c456a0
+979.704583,32,Other fracture and dislocation procedure,Musculoskeletal System,#fece34
+1165.250000,10,Other hernia repair,Digestive System,#e44145
+520.227314,18,Other intraocular therapeutic procedures,Eye,#9d377b
+538.192121,33,Other non-OR or closed therapeutic nervous system procedures,Nervous System,#31849a
+300.945980,17,Other non-OR therapeutic procedures of urinary tract,Urinary System,#eb7408
+88.483052,178,Other non-OR therapeutic procedures on skin and breast,Integumentary System,#7bc143
+1894.473684,19,Other OR upper GI therapeutic procedures,Digestive System,#e44145
+126.776303,124,Other physical therapy and rehabilitation,Evaluation and Therapeutic Procedures,#4aabc5
+1183.406956,23,Other therapeutic procedures on eyelids conjunctiva cornea,Eye,#9d377b
+725.479114,924,Other vascular catheterization not heart,Cardiovascular System,#c3cacb
+1602.614140,19,Skin graft,Integumentary System,#7bc143
+1652.411086,23,Amputation of lower extremity,Musculoskeletal System,#fece34
+152.937261,84,Cardiac stress tests,Diagnostic Procedures,#c456a0
+380.287804,1085,Computerized axial tomography (CT) scan head,Diagnostic Procedures,#c456a0
+1406.752230,133,Diagnostic cardiac catheterization coronary arteriography,Cardiovascular System,#c3cacb
+290.030043,76,Diagnostic procedures on nose mouth and pharynx,Nose Mouth and Pharynx,#e4ae01
+87.443923,2792,Electrocardiogram,Diagnostic Procedures,#c456a0
+771.044685,69,Endoscopic retrograde cannulation of pancreas (ERCP),Digestive System,#e44145
+943.955382,61,Gastrostomy temporary and permanent,Digestive System,#e44145
+491.189227,41,Incision and drainage skin and subcutaneous tissue,Integumentary System,#7bc143
+228.369523,203,Indwelling catheter,Urinary System,#eb7408
+2699.148846,13,Laminectomy excision intervertebral disc,Nervous System,#31849a
+100.586978,4234,Microscopic examination (bacterial smear culture toxicology),Diagnostic Procedures,#c456a0
+364.261067,20916,Other diagnostic procedures (interview evaluation consultation),Evaluation and Therapeutic Procedures,#4aabc5
+617.385740,18,Other gastrointestinal diagnostic procedures,Digestive System,#e44145
+268.083240,36,Other non-OR gastrointestinal therapeutic procedures,Digestive System,#e44145
+359.673586,384,Other non-OR therapeutic cardiovascular procedures,Cardiovascular System,#c3cacb
+4742.869285,14,Other OR procedures on vessels of head and neck,Cardiovascular System,#c3cacb
+1410.469230,13,Other OR therapeutic procedures of urinary tract,Urinary System,#eb7408
+1801.008269,26,Other therapeutic procedures on muscles and tendons,Musculoskeletal System,#fece34
+1336.943440,31,Other therapeutic procedures hemic and lymphatic system,Hemic and Lymphatic System,#b7dde8
+1460.210750,40,Percutaneous transluminal coronary angioplasty (PTCA),Cardiovascular System,#c3cacb
+528.670000,20,Swan-Ganz catheterization for monitoring,Diagnostic Procedures,#c456a0
